@@ -15,4 +15,4 @@ server/
 ### **MongoDB Connection Notes**
 
 This app uses MongoDB Atlas (cloud-hosted) for persistent storage.
-Connection details are stored in the .env file:
+Connection details are stored in the .env file
