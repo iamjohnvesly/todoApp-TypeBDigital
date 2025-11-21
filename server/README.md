@@ -1,3 +1,13 @@
-<!-- NodeJS Backend -->
-<!-- db username,password - johnvesly007_db_user/Qiu6Ew1UlHWA2Kd7 -->
-<!-- connection String - mongodb+srv://johnvesly007_db_user:<db_password>@cluster0.iifjrzq.mongodb.net/?appName=Cluster0 -->
+### **Backend**
+```bash
+cd server
+npm install
+npm start       # or nodemon server.js
+
+# Folder Structure
+server/
+├─ controllers/          # Handles business logic for each resource
+├─ models/               # Mongoose models (ORM for MongoDB)
+├─ routes/               # API routes mapping HTTP endpoints to controllers
+├─ utils/                # Utility/helper functions
+└─ server.js             # Entry point for the backend server
