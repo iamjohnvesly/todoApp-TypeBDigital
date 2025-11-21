@@ -11,3 +11,8 @@ server/
 ├─ routes/               # API routes mapping HTTP endpoints to controllers
 ├─ utils/                # Utility/helper functions
 └─ server.js             # Entry point for the backend server
+
+### **MongoDB Connection Notes**
+
+This app uses MongoDB Atlas (cloud-hosted) for persistent storage.
+Connection details are stored in the .env file:
